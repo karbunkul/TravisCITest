@@ -22,4 +22,6 @@ before_script:
 
 script:
     - chmod +x ./gradlew
-#    - ./gradlew connectedCheck
+    - ./gradlew test
+
+after_failure: "cat $TRAVIS_BUILD_DIR/app/build/outputs/lint-results-debug.xml"
