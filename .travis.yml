@@ -1,7 +1,14 @@
 language: android
+sudo: false
+
+jdk:
+  - oraclejdk7
+  - oraclejdk8
 
 android:
   components:
+    - platform-tools
+    - tools
     - build-tools-25.1.0
     - android-19
     - sys-img-armeabi-v7a-android-19
@@ -15,4 +22,4 @@ before_script:
 
 script:
     - chmod +x ./gradlew
-#    - ./gradlew build connectedCheck
+    - ./gradlew connectedCheck
