@@ -15,4 +15,4 @@ before_script:
 
 script:
     - chmod +x ./gradlew
-    - ./gradlew --stacktrace build connectedCheck
+#    - ./gradlew build connectedCheck
