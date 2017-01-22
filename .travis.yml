@@ -1,6 +1,4 @@
 language: android
-jdk: oraclejdk8
-sudo: false
 
 android:
   components:
@@ -16,4 +14,4 @@ before_script:
 
 script:
     - chmod +x ./gradlew
-    - ./gradlew connectedCheck
+    - ./gradlew --stacktrace connectedCheck
