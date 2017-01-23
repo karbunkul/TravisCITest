@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/karbunkul/TravisCITest.svg?branch=master)](https://travis-ci.org/karbunkul/TravisCITest)
+[![Build Status](https://travis-ci.org/karbunkul/TravisCITest.svg?branch=master)](https://travis-ci.org/karbunkul/TravisCITest) [![codecov](https://codecov.io/gh/karbunkul/TravisCITest/branch/master/graph/badge.svg)](https://codecov.io/gh/karbunkul/TravisCITest)
