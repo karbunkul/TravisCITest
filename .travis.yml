@@ -12,6 +12,7 @@ android:
     - android-23
     - build-tools-23.0.3
     - extra-android-support
+    - sys-img-${ANDROID_ABI}-${ANDROID_TARGET}
 
 licenses:
   - 'android-sdk-license-.+'
